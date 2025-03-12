@@ -1,0 +1,30 @@
+# Basic Git Configuration
+git config --global user.name "Your Name"    # Set your username
+git config --global user.email "your@email.com"    # Set your email
+git config --list    # View your Git configuration
+
+# Repository Operations
+git init    # Initialize a new Git repository
+git clone https://github.com/username/repository.git    # Clone an existing repository
+git remote add origin https://github.com/username/repository.git    # Link to remote repository
+
+# Basic Workflow
+git status    # Check status of working directory
+git add filename    # Add specific file to staging area
+git add .    # Add all files in current directory to staging area
+git commit -m "commit message"    # Commit changes with a message
+git push origin branch-name    # Push changes to remote repository
+
+# Branch Operations
+git branch    # List all branches
+git branch branch-name    # Create a new branch
+git checkout branch-name    # Switch to a branch
+git checkout -b branch-name    # Create and switch to a new branch
+git merge branch-name    # Merge a branch into current branch
+
+# History and Updates
+git pull    # Fetch and merge changes from remote
+git log    # View commit history
+git diff    # View changes between working directory and staging area
+
+git push origin main   # Push changes to remote repository
